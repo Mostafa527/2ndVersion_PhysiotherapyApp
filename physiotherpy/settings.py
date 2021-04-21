@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'physiotherpy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'physio_db',
-        'USER': 'postgres',
-        'PASSWORD': '42105518',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dfulsmojsp3cm',
+        'USER': 'auyauugerhdhre',
+        'PASSWORD': '8bf789a30af65ca8a95d656eea9336b06da7da785e1a5acc654d092cb2863208',
+        'HOST': 'ec2-34-206-8-52.compute-1.amazonaws.com',
         'PORT': '5432'
     }
 }
